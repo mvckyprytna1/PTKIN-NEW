@@ -1,0 +1,29 @@
+# Materi UM-PTKIN Premium Web
+
+Website bacaan materi UM-PTKIN yang modern, responsif, dan ringan. Dibangun menggunakan murni HTML, Vanilla JavaScript, dan Tailwind CSS.
+
+## 🚀 Cara Menjalankan Lokal
+
+Karena ini murni HTML, tidak perlu `npm install` atau proses build!
+1. Buat folder baru, masukkan semua file (`index.html`, `data.js`, `app.js`).
+2. Buka file `index.html` langsung di browser kamu (Double-click file-nya).
+3. (Opsional) Jika ingin menggunakan Live Server di VS Code, klik kanan `index.html` lalu pilih "Open with Live Server".
+
+## 📦 Cara Mengubah Materi (PDF ke Web)
+
+1. Buka file `data.js`.
+2. Ubah isi array `materials` dan `ujianBesokData` sesuai dengan hasil ekstrak PDF kamu.
+3. Gunakan tag HTML dasar di dalam `content` jika butuh paragraf (`<p>`), tebal (`<b>`), dll.
+4. Save, dan website otomatis terupdate.
+
+## 🌐 Cara Deploy ke Vercel
+
+Sangat mudah karena ini adalah static site.
+1. Buat repository baru di [GitHub](https://github.com).
+2. Upload semua file project ini (`index.html`, `data.js`, `app.js`) ke repository tersebut.
+3. Login ke [Vercel](https://vercel.com).
+4. Klik **Add New Project**.
+5. Pilih repository GitHub yang baru saja dibuat.
+6. Framework Preset: biarkan **Other** (karena ini murni HTML).
+7. Klik **Deploy**.
+8. Dalam hitungan detik, website materi kamu sudah online!
